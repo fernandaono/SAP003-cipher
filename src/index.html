@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html>
-   
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&amp;display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-    <div id="root">
-      
-      <h1>Stay Safe</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&amp;display=swap" rel="stylesheet">
+</head>
 
-    <div>
-    <fieldset>
-      <legend><p>Senha</p></legend>
-      <textarea cols="20" rows="5" wrap="soft" value="" id="mensagem"></textarea>
-      <p>Offset</p>
-      <input type="number" value="" id="deslocamento">
-      <br><br>
-      <input type="button" value="Cifrar" onclick="codificar();" >
-      <input type="button" value="Decifrar" onclick="decodificar();" >
-    </fieldset>
-      
+<body>
+  <div id="root">
+
+    <h1>Stay Safe</h1>
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+
   <fieldset>
-  <legend>Senha Criptografada</legend>  
+    <legend>
+      <p>Senha</p>
+    </legend>
+    <textarea cols="20" rows="5" wrap="soft" value="" id="mensagem"></textarea>
+    <p>Offset</p>
+    <input type="number" value="" id="deslocamento">
+    <br><br>
+    <input type="button" value="Cifrar" onclick="codificar()">
+    <input type="button" value="Decifrar" onclick="decodificar()">
+  </fieldset>
+  <fieldset>
+    <legend>Senha Cifrada</legend>
     <p id="cifra"></p>
   </fieldset>
+  <fieldset>
+    <legend>Senha Decifrada</legend>
+    <p id="decifra"></p>
+  </fieldset>
+  </div>
+</body>
 
-    </div>
-  </body>
 </html>
