@@ -1,3 +1,6 @@
+document.getElementById("myBtn").addEventListener("click", codificar);
+document.getElementById("myBtn2").addEventListener("click", decodificar);
+
 function codificar() {
   event.preventDefault();
   let str = document.getElementById("mensagem").value;
@@ -5,7 +8,6 @@ function codificar() {
   let code = window.cipher.encode(str, nbr);
   document.getElementById("cifra").innerHTML = code;
 }
-
 function decodificar() {
   event.preventDefault();
   let str = document.getElementById("mensagem").value;
