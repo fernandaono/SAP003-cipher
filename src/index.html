@@ -15,8 +15,7 @@
 
     <h1>Stay Safe</h1>
   </div>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+
 
   <fieldset>
     <legend>
@@ -26,10 +25,8 @@
     <p>Offset</p>
     <input type="number" value="" id="deslocamento">
     <br><br>
-   <input type="button" value="Cifrar" onclick="codificar()">
-  <input type="button" value="Decifrar" onclick="decodificar()">
-  <!--<button id="clickEncode">Cifrar</button>-->
-  <!--<button id="clickDecode">Decifrar</button>-->
+   <input type="button" value="Cifrar" id="clickEncode">
+  <input type="button" value="Decifrar" id="clickDecode">
   </fieldset>
   <fieldset>
     <legend>Senha Cifrada</legend>
@@ -40,6 +37,8 @@
     <p id="decifra"></p>
   </fieldset>
   </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
