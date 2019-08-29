@@ -19,6 +19,8 @@
 
 ## 1. Prefácio
 
+O projeto foi inspirado na Cifra de César, uma técnica simples de cifrar mensagem, onde cada letra do texto original é substituida por outra de um deslocamento
+
 Cifrar significa codificar. A [cifra de
 César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos primeiros
 tipos de criptografias conhecidas na história. O imperador romano Júlio César
