@@ -29,7 +29,7 @@ function decode(nbr, str) {
       calc2 = (((letterDecode - 65) + (- nbr % 26 + 26)) % 26 + 65);
       cifra2 = String.fromCharCode(calc2);
     } else if (letterDecode >= 97 && letterDecode <= 122) {
-      calc2 = (((letterDecode - 97) + (-nbr% 26 + 26 )) % 26 + 97);
+      calc2 = (((letterDecode - 97) + (-nbr % 26 + 26 )) % 26 + 97);
       cifra2 = String.fromCharCode(calc2);
     } else {
       cifra2 = str[j];
