@@ -13,7 +13,7 @@
 
 ## 1. Prefácio
 
-O projeto **Saty Safe** foi baseado na Cifra de César, uma técnica simples de criptografar uma mensagem, onde cada letra do alfabeto é substituida por outra de acordo com a escolha de deslocamento inserida pelo usuário.
+O projeto **Stay Safe** foi baseado na Cifra de César, uma técnica simples de criptografar uma mensagem, onde cada letra do alfabeto é substituida por outra de acordo com a escolha de deslocamento inserida pelo usuário.
 
 Por exemplo, o usuário irá escrever seu texto e inserir um valor [n] de _offset_ (deslocamento), sendo:
 
