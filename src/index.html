@@ -11,35 +11,33 @@
 </head>
 
 <body>
-  <embed type="image/svg+xml"
-src="2749245.ai.svg">  
-
-<div id="root">
-  </div>
-
-  <fieldset>
-    <legend>
-      <p>May the force of password be with you</p>
-    </legend>
-    <textarea cols="20" rows="5" wrap="soft" value="" placeholder="Text Here!" id="mensagem"></textarea>
-    <p>Offset</p>
-    <input type="number" value="" id="deslocamento">
-    <br><br>
-    <p>Choose Your Side ❣</p>
-   <input type="button" value="Encode" id="clickEncode">
-  <input type="button" value="Decode" id="clickDecode">
-  </fieldset>
-  <fieldset>
-    <legend>Cipher</legend>
-    <p id="cifra"></p>  
-  </fieldset>
-<fieldset>
-  <legend>Decipher</legend>
-  <p id="decifra"></p>  
-</fieldset>
-</div>
+  <div class= "image">
+    <embed type="image/svg+xml" src="2749245.ai.svg">  
+      <section class="root">
+        <fieldset>
+          <legend>
+            <p>May the force of password be with you</p>
+          </legend>
+          <textarea cols="20" rows="5" wrap="soft" value="" placeholder="Text Here!" id="mensagem"></textarea>
+          <p>Offset</p>
+          <input type="number" value="" id="deslocamento">
+          <br><br>
+          <p>Choose Your Side ❣</p>
+          <input type="button" value="Encode" id="clickEncode">
+          <input type="button" value="Decode" id="clickDecode">
+        </fieldset>
+        <fieldset>
+          <legend>Cipher</legend>
+          <p id="cifra"></p>  
+        </fieldset>
+        <fieldset>
+          <legend>Decipher</legend>
+          <p id="decifra"></p>  
+        </fieldset>
+      </section>
+      
+    </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
-
 </html>

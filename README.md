@@ -49,4 +49,4 @@ Através do site [StaySafe] você irá se deparar com uma página simples e intu
 
 ## 6. Considerações técnicas
 
-O projeto foi implementado inteiramente em JavaScript(ES6).  
+O projeto foi implementado inteiramente em JavaScript(ES6).
